@@ -1,23 +1,9 @@
-/*let contador = 0
-let res = window.document.getElementById('section#resultado')
+let contador = 0
+let res = document.querySelector('section#result')
+
 
 function contar() {
     contador++
-    res.innerHTML = `<p> Você clicou <mark>${contador}</mark> vezes </p> `
-
-}
-
-function zerar() {
-    contador = 0
-    res.innerHTML = null
-}
-*/
-let contador = 0
-let res = document.querySelector('section#resultado')
-    // As variáveis declaradas aqui fora são consideradas GLOBAIS e funcionam dentro do programa inteiro
-
-function contar() {
-    contador++ // É a mesma coisa que contador = contador + 1
     res.innerHTML = `<p>O contador está com <mark>${contador}</mark> cliques.</p>`
 }
 
