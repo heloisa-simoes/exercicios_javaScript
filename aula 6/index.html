@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de nacionalidade</title>
+    <style>
+        body {
+            background-color: rgba(0, 0, 0, 0.466);
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1rem;
+        }
+        
+        div {
+            border: 1px solid green;
+            width: 100%;
+            height: 100vh;
+            margin: 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Sistema de nacionalidade</h1>
+        <p>Nós somos o
+            <strong> BRASIL A FORA!</strong> e estamos realizando um teste, por favor, nós diga qual o seu país de origem: <input type="text" name="mensagem" id="mensagem" placeholder="coloque seu país:"> <input type="submit" value="enviar" id="enviar"
+                onclick="enviar()"></p>
+    </div>
+    <script>
+        function enviar() {
+            let botao = window.document.getElementById('enviar.value')
+            document.write = `fico muito feliz em saber que é ${mensagem}`
+
+        }
+        if (enviar != 'pernambuco') {
+            document.write = 'mesmo assim seja muito bem vinda '
+        }
+    </script>
+</body>
+
+</html>
